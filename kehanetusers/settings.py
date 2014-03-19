@@ -66,7 +66,8 @@ INSTALLED_APPS = (
     'apps.api',
 
     # 3rd party
-    'rest_framework'
+    'rest_framework',
+    'django_filters',
 )
 
 AUTH_USER_MODEL = "profiles.Profile"
